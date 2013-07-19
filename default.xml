@@ -8,6 +8,22 @@
   <remote  name="aokp"
            fetch="https://github.com/AOKP/"
            review="gerrit.aokp.co" />
+  
+  <remote  name="n3o"
+           fetch="https://github.com/n3ocort3x"
+           review="https://github.com/n3ocort3x" />
+
+  <remote  name="cesco"
+           fetch="https://github.com/cesco89"
+           review="https://github.com/cesco89" />
+
+  <remote  name="ICJ"
+           fetch="https://github.com/IceColdJelly42"
+           review="https://github.com/IceColdJelly42" />
+
+  <remote  name="muppets"
+           fetch="https://github.com/TheMuppets"
+           review="https://github.com/TheMuppets" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
@@ -280,7 +296,7 @@
   <project path="frameworks/ex" name="UnicornButter/frameworks_ex" remote="gh" revision="jb-mr1" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="frameworks_native" remote="rootbox" revision="jb-mr1" />
+  <project path="frameworks/native" name="frameworks_native" remote="ICJ" revision="jb-mr1" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -443,7 +459,7 @@
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 
-  <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb-mr1" />
+  <project path="vendor/rootbox" name="vendor_rootbox" remote="cesco" revision="master" />
   <project path="vendor/asus" name="vendor_asus" remote="rootbox" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="gh" revision="cm-10.1" />
@@ -452,5 +468,9 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
-  <project path="platform_manifest" name="platform_manifest" remote="rootbox" revision="jb-mr1" />
+  <project path="platform_manifest" name="platform_manifest" remote="cesco" revision="jb-mr1" />
+  
+  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="cesco" revision="master" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="muppets" revision="cm-10.1" />
+  
 </manifest>
