@@ -51,7 +51,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="rootbox" revision="jb-mr1" >
+  <project path="build" name="android_build" remote="cesco" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="rootbox" name="buildscripts" remote="rootbox" revision="jb-mr1" >
